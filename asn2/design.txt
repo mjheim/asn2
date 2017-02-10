@@ -1,0 +1,5 @@
+problem:
+Mr.Krabs needs a program to help him clean up and organize his files.IOWheneeds you to write the pro-gram wash,which processes, one at a time, file names provided on the command line.
+
+design:
+The design of my program will be based around a for loop and a do-while loop. The for loop will enable the arguments from the command line to be implemented into an array that will be able to be called from any point during the do-while loop. Once the arguments are input the loop will begin for the current argument. the current file being accessed will give the user the ability to make multiple changes. Once done the user will have the ability switch throug the files that were input in the orginal arguments to be edited or choose to quit the program if done editing the files they so choose. Each command is supported by decision making that will prompt the user to enter a command that is explained once the program commences. The user can choose to quit at any time as the program will constantly running with the while loop.

@@ -1,0 +1,28 @@
+Script started on Fri 10 Feb 2017 01:31:22 AM EST
+mheim@woodstock:~/cs366/asn2$ ./a.out a.txt b.txt c.txt
+
+’c’ list the current file
+’d’ copy the current file
+’r’ rename the current file
+’u’ delete (unlink) the current file
+'t' zero (length) the current file
+'a' append the current file to another file
+'l' display the last 100 bytes of the curent file
+'m' change the current file's access permissions
+'x' change the current file's access to the current time
+'n' go to the next file
+'q' quit
+
+argv[1]: a.txt
+argv[2]: b.txt
+argv[3]: c.txt
+---
+Current File: argv[1]: a.txt
+c
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Test file 1
+Current File: argv[1]: a.txt
+q
+mheim@woodstock:~/cs366/asn2$ exit
+
+Script done on Fri 10 Feb 2017 01:31:44 AM EST
